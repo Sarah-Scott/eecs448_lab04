@@ -1,0 +1,52 @@
+<html>
+    <head>
+      <script type="text/javascript"
+          src="formChecker.js">
+      </script>
+      <link href="style.css"
+          rel="stylesheet"
+          type="text/css"/>
+    </head>
+<body>
+
+    <form name="form" action="customerBackend.php" onsubmit="checkInput()" method="post">
+
+      <a> Username: </a>
+      <input type="text" id="username" name="username" />
+      <br>
+      <a> Password: </a>
+      <input type="password" id="password" name="password" />
+      <br> <br> <br>
+
+      <a1> Adidas sweathshirt $80.00 <br> Quantity:</a1>
+      <input type="quantity" id="sweatshirt" name="sweatshirt" />
+      <br> <br>
+
+      <a2>Custom bracelet $15.00 <br> Quantity:</a2>
+      <input type="quantity" id="bracelet" name="bracelet" />
+      <br> <br>
+
+      <a3>3/4 tights $65.00 <br> Quantity:</a3>
+      <input type="quantity" id="tights" name="tights" />
+      <br> <br> <br>
+
+
+
+        <as> Shipping <br>
+          <input type="radio" name="1" value="0" > Free 7 day <br>
+          <input type="radio" name="1" value="50" > $50.00 overnight <br>
+          <input type="radio" name="1" value="5" > $5.00 three day <br>
+        </as>
+
+
+
+
+        <input type="submit">
+
+
+    </form>
+
+    <!-- <button type="button" onclick="clearInput()"> Clear </button> -->
+
+</body>
+</html>
